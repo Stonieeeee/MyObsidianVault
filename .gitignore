@@ -1,6 +1,7 @@
 # Obsidian
 .obsidian/workspace.json
 .obsidian/workspaces.json
+.obsidian/workspace-mobile.json
 .obsidian/cache/
 
 # Optional: plugin-specific local data
