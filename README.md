@@ -21,11 +21,3 @@ mount -t ios . MyObisidianVault ## Select the obsidian folder in the files and o
 cd MyObsidianVault
 git clone --depth=1 https://Stonieeeee:(Add token here)@github.com/Stonieeeee/MyObsidianVault.git
 ```
-### Hi to Iphone16 Pro (From:Workplace)
-	Another Hi to IPhone16 Pro 👋
-	Another Test? Say Hello IPhone Please 🙏
-	Hello test 🫶 (from: Iphone16 Pro)
-	
-### Hi to everyone! 👋👨‍💻 (From:Home!)
-	Testing SSH...
-
