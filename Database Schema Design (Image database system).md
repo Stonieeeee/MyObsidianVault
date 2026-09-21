@@ -30,3 +30,4 @@
 | IMG_DL_TIME | DATE           |
 | USER_ID     | VARCHAR2(15)   |
 | Area        | VARCHAR2(7)    |
+
