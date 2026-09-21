@@ -42,3 +42,5 @@ iCloud Drive
 	└── YourVault
 ```
 
+**Copy the entire vault**
+Long-press your vault
