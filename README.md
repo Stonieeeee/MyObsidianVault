@@ -24,7 +24,21 @@ git clone --depth=1 https://Stonieeeee:(Add token here)@github.com/Stonieeeee/My
 
 ### 2. Issues
 #### 2.1 "Merge with conflicts are not supported yet" (Solution)
-```bash
-#
 
+**Step 1 — Make a backup of your iPhone vault**
+Open the **Files** app.
+Go to wherever your Obsidian vault stored.
+
+Usually:
+```text
+On My iPhone
+└── Obsidian
+	└── YourVault
 ```
+or possibly:
+```text
+iCloud Drive
+└── Obsidian
+	└── YourVault
+```
+
