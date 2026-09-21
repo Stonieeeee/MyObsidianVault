@@ -42,65 +42,65 @@ erDiagram
     IMAGE_FILE ||--o{ APPLICATION_LOG : generates
 
     PROCESS {
-        INT process_id PK
+        NUMBER process_id PK
         STRING process_name
-        string process_type
-        string description
-        datetime created_at
+        STRING process_type
+        STRING description
+        DATE created_at
     }
 
     SOURCE_LOCATION {
-        int source_id PK
-        string source_name
-        string source_type
-        string source_path
-        string machine_name
-        boolean enabled
-        datetime created_at
+        NUMBER source_id PK
+        STRING source_name
+        STRING source_type
+        STRING source_path
+        STRING machine_name
+        BOOLEAN enabled
+        DATE created_at
     }
 
     IMAGE_FILE {
-        int image_id PK
-        int process_id FK
-        int source_id FK
-        string file_name
-        string original_name
-        string file_extension
-        bigint file_size
-        string file_hash
-        datetime generated_at
-        datetime collected_at
-        string status
+        NUMBER image_id PK
+        NUMBER process_id FK
+        NUMBER source_id FK
+        STRING file_name
+        STRING original_name
+        STRING file_extension
+        bigNUMBER file_size
+        STRING file_hash
+        DATE generated_at
+        DATE collected_at
+        STRING status
     }
 
     STORAGE_LOCATION {
-        int storage_id PK
-        string storage_name
-        string storage_type
-        string storage_path
-        boolean enabled
-        datetime created_at
+        NUMBER storage_id PK
+        STRING storage_name
+        STRING storage_type
+        STRING storage_path
+        BOOLEAN enabled
+        DATE created_at
     }
 
     TRANSFER_HISTORY {
-        int transfer_id PK
-        int image_id FK
-        int storage_id FK
-        datetime started_at
-        datetime completed_at
-        string status
-        string error_message
-        int retry_count
+        NUMBER transfer_id PK
+        NUMBER image_id FK
+        NUMBER storage_id FK
+        DATE started_at
+        DATE completed_at
+        STRING status
+        STRING error_message
+        NUMBER retry_count
     }
 
     APPLICATION_LOG {
-        int log_id PK
-        int image_id FK
-        string log_level
-        string event_type
-        string message
-        string machine_name
-        datetime created_at
+        NUMBER log_id PK
+        NUMBER image_id FK
+        STRING log_level
+        STRING event_type
+        STRING message
+        STRING machine_name
+        DATE created_at
     }
 
 
