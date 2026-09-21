@@ -7,7 +7,7 @@ A personal knowledge base and learning repository for my journey as a systems/so
 git clone --depth=1 https://Stonieeeee:(Add token here)@github.com/Stonieeeee/MyObsidianVault.git
 ```
 
-#### 1.1 iOS Environment
+#### 1.1 iOS Environment (Setup)
 
 ```bash
 # install 'iSH' and open
@@ -21,3 +21,7 @@ mount -t ios . MyObisidianVault ## Select the obsidian folder in the files and o
 cd MyObsidianVault
 git clone --depth=1 https://Stonieeeee:(Add token here)@github.com/Stonieeeee/MyObsidianVault.git
 ```
+
+### 2. Issues
+#### 2.1 "Merge with conflicts are not supported yet" - Solution
+**Step-by-step Guide**
