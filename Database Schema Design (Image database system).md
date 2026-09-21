@@ -42,8 +42,8 @@ erDiagram
     IMAGE_FILE ||--o{ APPLICATION_LOG : generates
 
     PROCESS {
-        int process_id PK
-        string process_name
+        INT process_id PK
+        STRING process_name
         string process_type
         string description
         datetime created_at
