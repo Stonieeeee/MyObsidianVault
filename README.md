@@ -25,3 +25,8 @@ git clone --depth=1 https://Stonieeeee:(Add token here)@github.com/Stonieeeee/My
 ### 2. Issues
 #### 2.1 "Merge with conflicts are not supported yet" - Solution
 **Step-by-step Guide**
+```mermaid
+flowchart TD
+	User --> Test --> Add
+
+```
