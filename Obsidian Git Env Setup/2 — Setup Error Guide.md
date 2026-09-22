@@ -1,6 +1,8 @@
+# Setup Error Guide
+
 This note documents a setup issue and its resolution process, including the steps taken to restore a working environment. It serves as a personal reference for troubleshooting and future recovery.
 ### Issue # 1
-#### "Merge with conflicts are not supported yet" (Solution)
+#### "Merge with conflicts are not supported yet"
 
 **Step 1 — Make a backup of your iPhone vault**
 Open the **Files** app.

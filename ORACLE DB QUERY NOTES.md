@@ -2,7 +2,8 @@
 
 "Find table names containing specific column name (header) and schema owner."
 
-```sql
+
+```sql title:"query.sql"
 SELECT OWNER AS SchemaName, TABLE_NAME
 FROM ALL_TAB_COLUMNS
 WHERE OWNER = 'SPAPP' -- Note: Oracle names are usually uppercase
