@@ -1,3 +1,7 @@
 {
-  "cssTheme": "Vanilla AMOLED"
+  "cssTheme": "Vanilla AMOLED",
+  "theme": "obsidian",
+  "accentColor": "#5789ff",
+  "interfaceFontFamily": "JetBrains Mono",
+  "textFontFamily": "JetBrains Mono"
 }
