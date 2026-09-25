@@ -12,4 +12,7 @@
 | Career              | <span style="color:#4d908e">4d908e</span> |
 | Portfolio           | <span style="color:#577590">577590</span> |
 | Assets              | <span style="color:#277da1">277da1</span> |
+| Obsidian/README     | <span style="color:#ff006f">ff006f</span> |
+
+
 
