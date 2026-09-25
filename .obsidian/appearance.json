@@ -3,5 +3,6 @@
   "theme": "obsidian",
   "accentColor": "#5789ff",
   "interfaceFontFamily": "JetBrains Mono",
-  "textFontFamily": "JetBrains Mono"
+  "textFontFamily": "JetBrains Mono",
+  "monospaceFontFamily": "JetBrains Mono"
 }
